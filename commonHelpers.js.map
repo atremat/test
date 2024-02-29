@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["const baseUrl = import.meta.env.VITE_BASE_URL;\nconsole.log(baseUrl);\n"],"names":["baseUrl"],"mappings":"ssBAAA,MAAMA,EAAU,CAAA,EAAgB,cAChC,QAAQ,IAAIA,CAAO"}
+{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["const baseUrl = import.meta.env.VITE_BASE_URL;\nconsole.log(baseUrl);\n"],"names":["baseUrl"],"mappings":"ssBAAA,MAAMA,EAAU,OAChB,QAAQ,IAAIA,CAAO"}
