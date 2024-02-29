@@ -7,6 +7,9 @@ export default defineConfig(({ command }) => {
   return {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
+      'import.meta.env.VITE_BASE_URL': JSON.stringify(
+        process.env.VITE_BASE_URL
+      ),
     },
     root: 'src',
     build: {
